@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(104, 99, 96);
+}
+
+h1 {
+    text-align: center;
+    background-color:104, 99, 96;
+}
+
+.ingreso{
+    text-align: right;
+    background-color: 104, 99, 96;
+}
+.botoninicio{
+    background-color: 104, 99, 96;
+    border-radius: 10px;
+}
+
+.barranavegacion{
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #29852f;
+}
+
+.lista3 {
+
+    list-style: upper-roman;
+}
+
+.lista2 {
+
+    list-style-image: url(comunes/greenball.gif);
+    
+}
+
+
+a:visited {
+
+    color: rgb(115, 244, 101); 
+}
+
+a:link {
+
+    color: rgb(0, 0, 0); text-decoration: none;
+    
+}
+
+a:hover {
+
+    color: rgb(42, 44, 42); font-weight: bold;
+
+}
+
+a:active {
+
+    color: yellowgreen;
+
+}
+
+
