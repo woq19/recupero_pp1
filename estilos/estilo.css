@@ -1,63 +1,74 @@
-body {
-    background-color: rgb(104, 99, 96);
+body{
+  margin: 0px;
+  padding: 0px;
+  background-image: url("/imagenes/2da\ imagen.jpg");
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
-h1 {
-    text-align: center;
-    background-color:104, 99, 96;
+.logo {
+  display: flex;
+  justify-content: center;
+  background-color: 104, 99, 96;
 }
 
-.ingreso{
-    text-align: right;
-    background-color: 104, 99, 96;
-}
-.botoninicio{
-    background-color: 104, 99, 96;
-    border-radius: 10px;
+.ingreso {
+  text-align: right;
+  background-color: 104, 99, 96;
 }
 
-.barranavegacion{
-    text-align: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #29852f;
+.botoninicio {
+  background-color: 104, 99, 96;
+  border-radius: 10px;
 }
 
-.lista3 {
-
-    list-style: upper-roman;
+.barranavegacion {
+  display: flex;
+  justify-content: center;
 }
 
-.lista2 {
-
-    list-style-image: url(comunes/greenball.gif);
-    
+ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  background-color: #8bc34a;
+  overflow: hidden;
 }
 
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 10px 40px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
 
 a:visited {
-
-    color: rgb(115, 244, 101); 
+  color: rgb(115, 244, 101);
 }
 
 a:link {
-
-    color: rgb(0, 0, 0); text-decoration: none;
-    
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 a:hover {
-
-    color: rgb(42, 44, 42); font-weight: bold;
-
+  color: rgb(42, 44, 42);
+  font-weight: bold;
 }
 
 a:active {
-
-    color: yellowgreen;
-
+  color: yellowgreen;
 }
 
+.mensajeinicio {
+  display: flex;
+  background-image: url("/imagenes/2da\ imagen.jpg");
+}
 
