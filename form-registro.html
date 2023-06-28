@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <form action="paginadestino.html" method="post" id="formularioingreso">
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" class="nombre" required placeholder="Ingrese nombre">
+        </p>    
+        <p>
+            <label for="apellido">Apellido</label>
+            <input type="text" class="apellido" required placeholder="Ingrese apellido">
+        </p>  
+        <p>
+            <label for="mail">Email</label>
+            <input type="text" class="mail" required multiple placeholder="Ingrese el Email">
+        </p> 
+        <p>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="contraseña" id="contraseña" required inputmode="numeric" placeholder="Ingresa contraseña">
+        </p>
+        <p>
+            Fecha de nacimiento
+            <input type="date" name="fecnac" id="fecnac" value="1963-01-23">
+        </p>
+        <p>
+            Como te enteraste de nuestros productos?
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10" maxlength="400"></textarea>
+        </p>
+    </form>
+    <button form="formularioingreso" formmethod="post">Enviar</button>
+</body>
+</html>
