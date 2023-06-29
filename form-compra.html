@@ -17,33 +17,27 @@
             <input type="text" class="apellido" required placeholder="Ingrese apellido">
         </p>  
         <p>
-            Domicilio
+            Domicilio <br>
             <label for="provincia">Provincia</label>
-            <input type="text" class="provincia" required placeholder="Ingrese la provincia">
+            <input type="text" class="provincia" required placeholder="Ingrese la provincia"><br>
             <label for="ciudad">Ciudad</label>
-            <input type="text" class="ciudad" required placeholder="Ingrese la ciudad">
+            <input type="text" class="ciudad" required placeholder="Ingrese la ciudad"><br>
             <label for="calle">Calle</label>
-            <input type="text" class="calle" required placeholder="Ingrese la calle">
+            <input type="text" class="calle" required placeholder="Ingrese la calle"><br>
             <label for="numerocalle">Número</label>
-            <input type="number" class="numerocalle" required placeholder="Ingrese la altura">
+            <input type="number" class="numerocalle" required placeholder="Ingrese la altura"><br>
             <label for="piso">piso</label>
-            <input type="number" class="piso" placeholder="Ingrese piso">
+            <input type="number" class="piso" placeholder="Ingrese piso"><br>
             <label for="departamento">departamento</label>
             <input class="departamento" placeholder="Ingrese nro departamento">
         </p> 
         <p>
-            <label for="contraseña">Contraseña</label>
-            <input type="password" name="contraseña" id="contraseña" required inputmode="numeric" placeholder="Ingresa contraseña">
-        </p>
-        <p>
-            Fecha de nacimiento
-            <input type="date" name="fecnac" id="fecnac" value="1963-01-23">
-        </p>
-        <p>
-            Como te enteraste de nuestros productos?
-            <textarea name="comentarios" id="comentarios" cols="30" rows="10" maxlength="400"></textarea>
+            <input type="checkbox" name="visa" id="visa" value="visa"><label for="visa">Tarjeta Visa</label>
+            <input type="checkbox" name="mastercard" id="mastercard" value="mastercard"><label for="bmastercard">Tarjeta Mastercard</label>
+            <input type="checkbox" name="efectivo" id="efectivo" value="efectivo"><label for="efectivo">Efectivo</label>
+            <input type="checkbox" name="transferencia" id="transferencia" value="transferencia"><label for="transferencia">Transferencia</label>   
         </p>
     </form>
-    <button form="formularioingreso" formmethod="post">Enviar</button>
+    <button form="compra" formmethod="post">Enviar</button>
 </body>
 </html>
