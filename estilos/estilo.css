@@ -1,16 +1,23 @@
 body{
   margin: 0px;
   padding: 0px;
-  background-image: url("/imagenes/2da\ imagen.jpg");
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
+  background-image: url("../imagenes/wallpaperbetter.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
 
+}
+.cabecera{
+  margin: 0px;
+  padding: 0px;
+  width:auto;
+  height: auto;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .logo {
   display: flex;
   justify-content: center;
-  background-color: 104, 99, 96;
 }
 
 .ingreso {
@@ -19,8 +26,11 @@ body{
 }
 
 .botoninicio {
-  background-color: 104, 99, 96;
+  background-color: transparent;
   border-radius: 10px;
+  padding: 10px;
+  border-width: 5px;
+  font-family: cursive;
 }
 
 .barranavegacion {
@@ -47,6 +57,7 @@ a {
   color: black;
   text-align: center;
   text-decoration: none;
+  font-family: cursive;
 }
 
 a:visited {
@@ -67,8 +78,16 @@ a:active {
   color: yellowgreen;
 }
 
+.descripcion{
+  font-family:;
+}
+
 .mensajeinicio {
   display: flex;
   background-image: url("/imagenes/2da\ imagen.jpg");
 }
 
+.logonevera{
+  display: flex;
+  width: 10%;
+}
