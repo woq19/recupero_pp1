@@ -1,36 +1,39 @@
-body{
+body {
   margin: 0px;
   padding: 0px;
-  background-image: url("../imagenes/wallpaperbetter.jpg");
+  background-image: url("../imagenes/fondoinicio.jpg");
   background-size: 100% 100%;
-  background-attachment: fixed;
-
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.cabecera{
+.cabecera {
   margin: 0px;
   padding: 0px;
-  width:auto;
-  height: auto;
-  background-image: url("");
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .logo {
   display: flex;
-  justify-content: center;
+  justify-content: right;
+  width: 200px;
+  height: 150px;
 }
 
 .ingreso {
   text-align: right;
-  background-color: 104, 99, 96;
 }
 
 .botoninicio {
   background-color: transparent;
-  border-radius: 10px;
   padding: 10px;
-  border-width: 5px;
+  border-width: 2px;
+  border: none;
   font-family: cursive;
+  width: auto;
+  height: auto;
+  font-size: medium;
 }
 
 .barranavegacion {
@@ -43,12 +46,7 @@ ul {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
-  background-color: #8bc34a;
   overflow: hidden;
-}
-
-li {
-  float: left;
 }
 
 a {
@@ -78,16 +76,110 @@ a:active {
   color: yellowgreen;
 }
 
-.descripcion{
-  font-family:;
+.descripcion {
+  font-family: cursive;
+  color: yellowgreen;
+  font-size: large;
+  text-align: center;
 }
 
 .mensajeinicio {
   display: flex;
-  background-image: url("/imagenes/2da\ imagen.jpg");
 }
 
-.logonevera{
+.redes {
   display: flex;
-  width: 10%;
+  justify-content: center;
+  color: ;
+}
+
+.idea {
+  text-align: right;
+}
+
+.logosfooter {
+  width: 35px;
+  height: 35px;
+}
+
+#formregistro {
+  text-align: center;
+  font-family: cursive;
+}
+
+#formularioingreso {
+  text-align: center;
+  font-family: cursive;
+}
+
+#compra {
+  text-align: center;
+  font-family: cursive;
+}
+
+.provincia {
+  text-align: center;
+  font-family: cursive;
+  border-radius: 20px;
+  border-style: none;
+}
+
+.ciudad {
+  text-align: center;
+  font-family: cursive;
+  border-radius: 20px;
+  border-style: none;
+}
+.calle {
+  text-align: center;
+  font-family: cursive;
+  border-radius: 20px;
+  border-style: none;
+}
+
+.numerocalle {
+  text-align: center;
+  font-family: cursive;
+  border-radius: 20px;
+  border-style: none;
+}
+
+.nombre {
+  text-align: center;
+  font-family: cursive;
+  border-radius: 20px;
+  border-style: none;
+}
+
+.apellido {
+  text-align: center;
+  font-family: cursive;
+  border-radius: 20px;
+  border-style: none;
+}
+
+.piso {
+  text-align: center;
+  font-family: cursive;
+  border-radius: 20px;
+  border-style: none;
+}
+
+.departamento {
+  text-align: center;
+  font-family: cursive;
+  border-radius: 20px;
+  border-style: none;
+}
+
+button {
+  text-align: center;
+  font-family: cursive;
+  border-radius: 20px;
+  border-style: none;
+}
+
+.piedepagina {
+  display: flex;
+  justify-content: right;
 }
