@@ -1,48 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./estilos/estilo.css" />
+  </head>
+  <body>
+    <header class="cabecera">
+      <div class="logo">
+        <img
+          class="logoimagen"
+          src="./imagenes/images-removebg-preview (1).png"
+          title="index.html"
+        />
+      </div>
+      <nav class="ingreso">
+        <button class="botoninicio">
+          <a class="login" href="./form-ingreso.html" target="_blank"
+            >Ingresar</a
+          >
+        </button>
+        <button class="botoninicio">
+          <a class="login" href="./form-registro.html" target="_blank"
+            >Registrarse</a
+          >
+        </button>
+      </nav>
+      <div>
+        <nav>
+          <ul class="barranavegacion">
+            <li><a href="./page.html">Inicio</a></li>
+            <li><a href="./contact.html">Contacto</a></li>
+            <li><a href="./product.html">Productos</a></li>
+            <li><a href="./form-compra.html">Comprar ahora </a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <form action="mens-compra.html" method="post" id="compra">
-        <p>
-            <label for="nombre">Nombre</label>
-            <input type="text" class="nombre" id="nombre" required placeholder="Ingrese nombre">
-        </p>    
-        <p>
-            <label for="apellido">Apellido</label>
-            <input type="text" class="apellido" id="apellido" required placeholder="Ingrese apellido">
-        </p>  
-        <p>
-            Domicilio <br>
-            <label for="provincia">Provincia</label>
-            <input type="text" class="provincia" id="provincia" required placeholder="Ingrese la provincia"><br>
-            <label for="ciudad">Ciudad</label>
-            <input type="text" class="ciudad" id="ciudad" required placeholder="Ingrese la ciudad"><br>
-            <label for="calle">Calle</label>
-            <input type="text" class="calle" id="calle" required placeholder="Ingrese la calle"><br>
-            <label for="numerocalle">Número</label>
-            <input type="number" class="numerocalle" id="numerocalle" required placeholder="Ingrese la altura"><br>
-            <label for="piso">piso</label>
-            <input type="number" class="piso" id="piso" placeholder="Ingrese piso"><br>
-            <label for="departamento">departamento</label>
-            <input class="departamento" id="departamento" placeholder="Ingrese nro departamento">
-        </p> 
+      <p>
+        <label for="nombre">Nombre</label>
+        <input
+          type="text"
+          class="nombre"
+          id="nombre"
+          required
+          placeholder="Ingrese nombre"
+        />
+      </p>
+      <p>
+        <label for="apellido">Apellido</label>
+        <input
+          type="text"
+          class="apellido"
+          id="apellido"
+          required
+          placeholder="Ingrese apellido"
+        />
+      </p>
+      <p>
+        <label for="provincia">Provincia</label>
+        <input
+          type="text"
+          class="provincia"
+          id="provincia"
+          required
+          placeholder="Ingrese la provincia"
+        /><br />
+        <label for="ciudad">Ciudad</label>
+        <input
+          type="text"
+          class="ciudad"
+          id="ciudad"
+          required
+          placeholder="Ingrese la ciudad"
+        /><br />
+        <label for="calle">Calle</label>
+        <input
+          type="text"
+          class="calle"
+          id="calle"
+          required
+          placeholder="Ingrese la calle"
+        /><br />
+        <label for="numerocalle">Número</label>
+        <input
+          type="number"
+          class="numerocalle"
+          id="numerocalle"
+          required
+          placeholder="Ingrese la altura"
+        /><br />
+        <label for="piso">piso</label>
+        <input
+          type="number"
+          class="piso"
+          id="piso"
+          placeholder="Ingrese piso"
+        /><br />
+        <label for="departamento">departamento</label>
+        <input
+          class="departamento"
+          id="departamento"
+          placeholder="Ingrese nro departamento"
+        />
+      </p>
 
-
-        <p>
-            Medio de pago
-            <input type="radio" name="medio_pago" id="visa"><label for="visa">Visa</label>
-            <input type="radio" name="medio_pago" id="master"><label for="master">Master</label>
-            <input type="radio" name="medio_pago" id="efectivo"><label for="efectivo">Efectivo</label>
-            <input type="radio" name="medio_pago" id="transferencia"><label for="transferencia">Transferencia</label>
-        </p>
-
-        
+      <p>
+        Medio de pago
+        <input type="radio" name="medio_pago" id="visa" /><label for="visa"
+          >Visa</label
+        >
+        <input type="radio" name="medio_pago" id="master" /><label for="master"
+          >Master</label
+        >
+        <input type="radio" name="medio_pago" id="efectivo" /><label
+          for="efectivo"
+          >Efectivo</label
+        >
+        <input type="radio" name="medio_pago" id="transferencia" /><label
+          for="transferencia"
+          >Transferencia</label
+        >
+      </p>
+      <button form="compra" formmethod="post">Enviar</button>
     </form>
-    <button form="compra" formmethod="post">Enviar</button>
-</body>
+    <footer>
+      <nav>
+        <ul class="redes">
+          <li>
+            <a
+              class="idea"
+              href="mailto:ecofreshconsutas@gmail.com?subjet=consultas&body=cuerpo del mensajesssss"
+            >
+              Enviar idea
+            </a>
+          </li>
+          <li><a>Copyright</a></li>
+          <li>
+            <a href="www.facebook.com.ar/ecofresh"
+              ><img
+                class="logosfooter"
+                src="./iconos/LogoFacebook.png"
+                title="facebook.com/ecofresh "
+            /></a>
+          </li>
+          <li>
+            <a href="www.instagram.com.ar/ecofresh"
+              ><img
+                class="logosfooter"
+                src="./iconos/LogoInstagram.png"
+                title="instagram.com/ecofresh"
+            /></a>
+          </li>
+          <li>
+            <a href="www.twitter.com.ar/ecofresh"
+              ><img
+                class="logosfooter"
+                src="./iconos/LogoTwitter.png"
+                title="twitter.com/ecofresh"
+            /></a>
+          </li>
+          <li>
+            <a href="www.linkedin.com.ar/ecofresh"
+              ><img
+                class="logosfooter"
+                src="./iconos/LogoLinkedin.png"
+                title="linkedin.com/ecofresh"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
