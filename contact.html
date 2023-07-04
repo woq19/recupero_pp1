@@ -4,31 +4,114 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./estilo.css" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./estilos/estilo.css" />
   </head>
   <body>
-    <h1>pagina de los contactos</h1>
+    <header class="cabecera">
+      <div class="logo">
+        <img
+          class="logoimagen"
+          src="./imagenes/Logo-EcoFresh.png"
+          title="inicio"
+        />
+      </div>
+      <nav class="ingreso">
+        <button class="botoninicio">
+          <a class="login" href="./form-ingreso.html" target="_blank" 
+            ><img class='logoinicio' src="./iconos/iconousuario.png"> Ingresar</a
+          >
+        </button>
+        <button class="botoninicio">
+          <a class="login" href="./form-registro.html" target="_blank"
+            ><img class='logoinicio' src="./iconos/iconoregistro.png"> Registrarse</a
+          >
+        </button>
+      </nav>
+      <div>
+        <nav>
+          <ul class="barranavegacion">
+            <li><a href="./page.html"><img class="logobarra" src="./iconos/iconohome.png" title="Home"> Inicio</a></li>
+            <li><a href="./contact.html"><img class="logobarra" src="./iconos/contacto.png" title="Contacto"> Contacto</a></li>
+            <li><a href="./product.html"><img class="logobarra" src="./iconos/nevera.png" title="Producto"> Productos</a></li>
+            <li><a href="./form-compra.html"><img class="logobarra" src="./iconos/comprar.png" title="Comprar"> Comprar ahora </a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <form action="datoscontacto.html" method="post" id="datoscontacto">
+        <p>
+          <label for="nombrecontacto">Nombre</label>
+          <input
+            type="text"
+            name="nombrecontacto"
+            class="nombrecontacto"
+            required
+            placeholder="ingrese su nombre"
+          />
+        </p>
+        <p>
+          <label for="apellidocontacto">Apellido</label>
+          <input
+            type="text"
+            name="apellidocontacto"
+            class="apellidocontacto"
+            required
+            placeholder="ingrese su apellido"
+          />
+        </p>
+        <p>
+          <label for="numerocontacto">Numero de teléfono</label>
+          <input
+            type="text"
+            name="numerocontacto"
+            class="numerocontacto"
+            required
+            placeholder="ingrese su Numero"
+          />
+        </p>
+        <p>
+          <label for="emailcontacto">Email</label>
+          <input
+            type="text"
+            name="emailcontacto"
+            class="emailcontacto"
+            required
+            placeholder="ingrese su Email"
+          />
+        </p>
+        ¿Cual es su consulta?
+        <textarea name="consultausuario" class="consultausuario" cols="30" rows="10" >
 
-    <a href="#materias"> volver al inicio </a><br />
-    <a href="#primerparrafo">volver al primer parrafo</a><br />
-    <a
-      href="mailto:walteroscarquintana456@gmail.com?subjet=consultas&body=cuerpo del mensaje"
-    >
-      Contacto ISEI 4030
-    </a>
-    <footer>
+        </textarea>
+        <button type="submit" class="enviar"> Enviar</button>
+    </form>
+    <h3>
+      <a href="www.whatsapp.com.ar" class="whatsapp"><img class="iconoscontacto" src="./iconos/whatsapp.png" title="www.whatsapp.com.ar"> +54 9 341 6355066 </a>
+    </h3>
+    <h3>
+      <a href="https://www.google.com.ar/maps/place/ISEI/@-32.9405157,-60.6438257,17z/data=!3m1!4b1!4m6!3m5!1s0x95b7ab3cdb31a259:0x1de5ff9cbb93d1c2!8m2!3d-32.9405157!4d-60.6412454!16s%2Fg%2F11c1xpwlgw?entry=ttu" 
+        class="direccion"><img class="iconoscontacto" src="./iconos/ubicacion.png" title="www.googlemaps.com.ar"> Corrientes n°356, Rosario, Santa Fé. </a>
+    </h3>
+    <h3>
+      <a href="www.gmail.com.ar" class="email"><img class="iconoscontacto" src="./iconos/gmail.png" title="www.gmail.com.ar/ecofresh"> ecofresh@gmail.com </a>
+    </h3>
+    </main>
+    <footer class="piedepagina">
+      <div>
+        <a>©Ecofresh Productos. 2023</a>
+      </div>
+      <div>
+        <a href="/we.html">Nosotros</a>
+      </div>
+      <div>
+        <a href="/legal.html">Legales</a>
+      </div>
       <nav>
         <ul class="redes">
-          <li>
-            <a
-              class="idea"
-              href="mailto:ecofreshconsutas@gmail.com?subjet=consultas&body=cuerpo del mensajesssss"
-            >
-              Enviar idea
-            </a>
+         
           </li>
-          <li><a>Copyright</a></li>
           <li>
             <a href="www.facebook.com.ar/ecofresh"
               ><img
@@ -61,6 +144,13 @@
                 title="linkedin.com/ecofresh"
             /></a>
           </li>
+          <li>
+            <a
+              class="idea"
+              href="mailto:ecofreshconsutas@gmail.com?subjet=consultas&body=cuerpo del mensajesssss"
+            >
+              Enviar idea
+            </a>
         </ul>
       </nav>
     </footer>
