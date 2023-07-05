@@ -4,17 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Comprar</title>
     <link rel="stylesheet" href="./estilos/estilo.css" />
+    <link rel="icon" href="./iconos/Logo-EcoFresh.ico"> 
   </head>
   <body>
     <header class="cabecera">
       <div class="logo">
-        <img
+        <a href="./page.html"><img
           class="logoimagen"
           src="./imagenes/Logo-EcoFresh.png"
           title="inicio"
-        />
+        /></a>
       </div>
       <nav class="ingreso">
         <button class="botoninicio">
@@ -48,7 +49,7 @@
           class="nombre"
           id="nombre"
           required
-          placeholder="Ingrese nombre"
+          placeholder="Nombre"
         />
       </p>
       <p>
@@ -58,7 +59,7 @@
           class="apellido"
           id="apellido"
           required
-          placeholder="Ingrese apellido" 
+          placeholder="Apellido" 
         />
       </p>
       <p>
@@ -68,7 +69,7 @@
           class="provincia"
           id="provincia"
           required
-          placeholder="Ingrese la provincia"/>
+          placeholder="Provincia"/>
       </p>    
       <p>
         <label for="ciudad">Ciudad</label>
@@ -77,7 +78,7 @@
           class="ciudad"
           id="ciudad"
           required
-          placeholder="Ingrese la ciudad"
+          placeholder="Ciudad"
         />
       </p>
       <p>
@@ -87,7 +88,7 @@
           class="calle"
           id="calle"
           required
-          placeholder="Ingrese la calle"
+          placeholder="Calle"
         />
       </p>
       <p> 
@@ -97,7 +98,7 @@
           class="numerocalle"
           id="numerocalle"
           required
-          placeholder="Ingrese la altura"
+          placeholder="Altura"
         />
       </p>
       <p> 
@@ -106,7 +107,7 @@
           type="number"
           class="piso"
           id="piso"
-          placeholder="Ingrese piso"
+          placeholder="Piso"
         />
       </p>
       <p>
@@ -114,32 +115,49 @@
         <input
           class="departamento"
           id="departamento"
-          placeholder="Ingrese nro departamento"
+          placeholder="Departamento"
         />
       </p>
 
       <p>
+        Producto
+        <select class="producto" required>
+          <option selected></option>
+          <option value="">Nevera 50 litros</option>
+          <option value="">Nevera 28 Litros</option>
+        </select>
+        Color
+        <select class="color" required>
+          <option selected></option>
+          <option class="azul">Azul</option>
+          <option class="rojo">Rojo</option>
+          <option class="negro">Negro</option>
+        </select>
+      </p>
+
+      <p>
         Medio de pago
-        <input type="radio" name="medio_pago" id="visa" /><label for="visa"
-          ><img class="logomedpago" src="./iconos/visa.png">Visa</label
+        <input type="radio" name="medio_pago" id="visa" required /><label for="visa"
+          ><img class="logomedpago" src="./iconos/visa.png"></label
         >
-        <input type="radio" name="medio_pago" id="master" /><label for="master"
-          ><img class="logomedpago" src="./iconos/mastercard.png">Master</label
+        <input type="radio" name="medio_pago" id="master" required /><label for="master"
+          ><img class="logomedpago" src="./iconos/mastercard.png"></label
         >
-        <input type="radio" name="medio_pago" id="efectivo" /><label
+        <input type="radio" name="medio_pago" id="efectivo" required /><label
           for="efectivo"
-          ><img class="logomedpago" src="./iconos/efectivo.png">Efectivo</label
+          ><img class="logomedpago" src="./iconos/efectivo.png"></label
         >
-        <input type="radio" name="medio_pago" id="transferencia" /><label
+        <input type="radio" name="medio_pago" id="transferencia" required /><label
           for="transferencia"
-          ><img class="logomedpago" src="./iconos/transferencia.png">Transferencia</label
+          ><img class="logomedpago" src="./iconos/transferencia.png"> Transferencia</label
         >
-        <input type="radio" name="medio_pago" id="Criptomoneda" /><label 
+        <input type="radio" name="medio_pago" id="Criptomoneda" required /><label 
           for="criptomoneda"
           ><img class="logomedpago" src="./iconos/criptomoneda.png"> Criptomoneda</label
         >
       </p>
-      <button form="compra" formmethod="post">Enviar</button>
+
+      <button form="compra" formmethod="post">Comprar</button>
     </form>
     </main>
     <footer class="piedepagina">

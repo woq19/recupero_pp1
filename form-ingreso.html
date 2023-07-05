@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>formulario de ingreso</title>
     <link rel="stylesheet" href="./estilos/estilo.css" />
+    <link rel="icon" href="./iconos/Logo-EcoFresh.ico"> 
   </head>
   <body>
     <header class="cabecera">
       <div class="logo">
-        <img
+        <a href="./page.html"><img
           class="logoimagen"
           src="./imagenes/Logo-EcoFresh.png"
           title="inicio"
-        />
+        /></a>
       </div>
       <nav class="ingreso">
         <button class="botoninicio">
@@ -48,7 +49,7 @@
           name="usuario"
           class="usuario"
           required
-          placeholder="ingresar usuario"
+          placeholder="Usuario"
         />
       </p>
       <p>
@@ -58,10 +59,10 @@
           name="contraseña"
           class="contraseña"
           required
-          placeholder="ingresar contraseña"
+          placeholder="Contraseña"
         />
       </p>
-      <button form="formregistro" formmethod="post">Ingresar</button>
+      <button form="formregistro" formmethod="post" href="/mensajeregistro.html">Ingresar</button>
     </form>
     </main>
     <footer class="piedepagina">

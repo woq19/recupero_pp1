@@ -4,18 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ecofresh</title>
+    <title>Ecofresh </title>
     <link rel="stylesheet" href="./estilos/estilo.css" />
+    <link rel="icon" href="./iconos/Logo-EcoFresh.ico"> 
   </head>
 
   <body>
     <header class="cabecera">
       <div class="logo">
-        <img
+        <a href="./page.html"><img
           class="logoimagen"
           src="./imagenes/Logo-EcoFresh.png"
           title="inicio"
-        />
+        /></a>
       </div>
       <nav class="ingreso">
         <button class="botoninicio">
@@ -25,8 +26,10 @@
         </button>
         <button class="botoninicio">
           <a class="login" href="./form-registro.html" target="_blank"
-            ><img class='logoinicio' src="./iconos/iconoregistro.png"> Registrarse</a
-          >
+            ><img class='logoinicio' src="./iconos/iconoregistro.png"> Registrarse</a>
+        </button>
+        <button class="botoninicio">
+          <a class="login" href="./recupero_password.html">¿Olvido su contraseña?</a>
         </button>
       </nav>
       <div>
@@ -40,15 +43,24 @@
         </nav>
       </div>
     </header>
-    <main>
-      
+    <main class="paginainicio">
+
       <div class="nosotros">
           <p class="mensajeinicial"><img class="ecofresh" src="./imagenes/Logo-EcoFresh.png"> es una empresa comprometida con el medioambiente, innovando en el transporte de productos sensibles a la temperatura
           aprovechando al máximo la energía inagotable del sol. </p>
+          <div class="proveedores">
+            <p class="mensajeinicial"> Trabajamos con componentes de empresas comprometidas con esta iniciativa de mejorar el planeta. </p>
+          </div>
+          <div class="logoproveedores">
+          <p>
+            <img class="imgproveedores" src="./imgproveedores/estrulam-removebg-preview.png">
+            <img class="imgproveedores" src="./imgproveedores/ht-removebg-preview.png"><img class="imgproveedores" src="./imgproveedores/netmak-removebg-preview.png">
+            <img class="imgproveedores" src="./imgproveedores/solarline-removebg-preview.png">
+           </p>
+          </div>  
       </div>
-      <div class="ofertas">
-          <p><img src="./imagenes/imagen_de_inicio.png"></p>
-
+      <div class="neveras">
+          <p><img src="./imgproductos/neveranegra.png"></p>
       </div>
     </main>
     <footer class="piedepagina">

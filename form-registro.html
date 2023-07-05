@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario de registro</title>
     <link rel="stylesheet" href="./estilos/estilo.css" />
+    <link rel="icon" href="./iconos/Logo-EcoFresh.ico"> 
   </head>
   <body>
     <header class="cabecera">
-      <div class="logo">
-        <img
-          class="logoimagen"
-          src="./imagenes/Logo-EcoFresh.png"
-          title="inicio"
-        />
+      <a href="./page.html"><img
+        class="logoimagen"
+        src="./imagenes/Logo-EcoFresh.png"
+        title="inicio"
+      /></a>
       </div>
       <nav class="ingreso">
         <button class="botoninicio">
@@ -74,7 +74,7 @@
         <input
           type="password"
           name="contraseña"
-          id="contraseña"
+          class="contraseña"
           required
           inputmode="numeric"
           placeholder="Ingresa contraseña"
@@ -94,7 +94,7 @@
           maxlength="400"
         ></textarea>
       </p>
-      <button form="formularioingreso" formmethod="post">Enviar</button>
+      <button form="formularioingreso" formmethod="post">Registrarse</button>
     </form>
     </main>
     <footer class="piedepagina">
